@@ -1,0 +1,4 @@
+.grider{
+    grid-template-columns:25vh 25vh;
+    grid-template-areas: 40vw;
+}
