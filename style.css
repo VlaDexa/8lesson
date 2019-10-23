@@ -34,4 +34,11 @@ body{margin: 0;}
         grid-column: 1/4;
         justify-self: unset;
     }
+    .former{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.error{
+        color: red;
 }
