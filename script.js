@@ -1,6 +1,11 @@
 document.getElementById("form").onsubmit = function(evt){
     evt.preventDefault();
     alert("Мы отправили данные");
+    let object={};
+    for (let i=0; i<6;i++){
+        object[evt.target[i].name]=evt.target[i].value;
+    }
+    localStorage.setItem("data", JSON.stringify(object))
     console.log(evt);
 }
 document.getElementById("name").onkeydown = function(evt){
